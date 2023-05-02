@@ -46,66 +46,40 @@
       <div class="row">
         <div class="col-md-2">
           <h2 class="side-title">
-            <img src="./icons/icons8-salt-bae-50.png" /> Our popular Recipes
+            <!-- <img src="./icons/icons8-salt-bae-50.png" /> -->
+            Our popular Recipes
           </h2>
-          <div class="sidebar">
-            <div class="dropdown">
-              <a
-                class="btn btn-secondary dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Dropdown link
-              </a>
-
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li>
-              </ul>
-            </div>
-            <div class="dropdown">
-              <a
-                class="btn btn-secondary dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Dropdown link
-              </a>
-
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li>
-              </ul>
-            </div>
-            <div class="dropdown">
-              <a
-                class="btn btn-secondary dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Dropdown link
-              </a>
-
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li>
-              </ul>
-            </div>
+          <div class="sidebar text-center">
+            <select id="recipe-list">
+              <option value="">What do you need now?</option>
+              <optgroup label="Breakfast">
+                <option value="">Recipe 1</option>
+                <option value="">Recipe 1</option>
+                <option value="">Recipe 1</option>
+              </optgroup>
+              <optgroup label="Brunch">
+                <option value="">Recipe 1</option>
+                <option value="">Recipe 1</option>
+                <option value="">Recipe 1</option>
+              </optgroup>
+              <optgroup label="Lunch">
+                <option value="../recipes/rosemarypotatoess.html">
+                  Rosemary Potatoes
+                </option>
+                <option value="../recipes/friedrice.html">Fried Rice</option>
+                <option value="../recipes/spareribs.html">Spare Ribs</option>
+              </optgroup>
+              <optgroup label="Dinner">
+                <option value="">Recipe 1</option>
+                <option value="">Recipe 1</option>
+                <option value="">Recipe 1</option>
+              </optgroup>
+              <optgroup label="Desserts">
+                <option value="">Recipe 1</option>
+                <option value="">Recipe 1</option>
+                <option value="">Recipe 1</option>
+              </optgroup>
+            </select>
           </div>
         </div>
         <!-- Main content -->
@@ -162,115 +136,97 @@
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <img
-                    src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                    src="./img/carousselimg/caroussel1.jpg"
                     class="d-block w-100"
                     alt="..."
                     width="400"
                     height="600"
                   />
                   <div class="carousel-caption d-none d-md-block">
-                    <h5>First slide label</h5>
-                    <p>
-                      Some representative placeholder content for the first
-                      slide.
-                    </p>
+                    <!-- <h5>First slide label</h5> -->
+                    <p>There is no sincerer love than the love of food."</p>
                   </div>
                 </div>
                 <div class="carousel-item">
                   <img
-                    src="./img/pizza.jpg"
+                    src="./img/carousselimg/caroussl2.jpg"
                     class="d-block w-100"
                     alt="..."
                     width="400"
                     height="600"
                   />
                   <div class="carousel-caption d-none d-md-block">
-                    <h5>Second slide label</h5>
-                    <p>
-                      Some representative placeholder content for the second
-                      slide.
-                    </p>
+                    <!-- <h5>Second slide label</h5> -->
+                    <p>People who love to eat are always the best people.</p>
                   </div>
                 </div>
                 <div class="carousel-item">
                   <img
-                    src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                    src="./img/carousselimg/caroussel3.jpg"
                     class="d-block w-100"
                     alt="..."
                     width="400"
                     height="600"
                   />
                   <div class="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
-                    <p>
-                      Some representative placeholder content for the third
-                      slide.
-                    </p>
+                    <!-- <h5>Third slide label</h5> -->
+                    <p>Food is not just eating energy. It's an experience.</p>
                   </div>
                 </div>
                 <!-- added images -->
                 <div class="carousel-item">
                   <img
-                    src="./img/pizza.jpg"
+                    src="./img/carousselimg/caroussel4.jpg"
                     class="d-block w-100"
                     alt="..."
                     width="400"
                     height="600"
                   />
                   <div class="carousel-caption d-none d-md-block">
-                    <h5>fourth slide label</h5>
+                    <!-- <h5>fourth slide label</h5> -->
+                    <p>Food is symbolic of love when words are inadequate.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./img/carousselimg/caroussel5.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                    width="400"
+                    height="600"
+                  />
+                  <div class="carousel-caption d-none d-md-block">
+                    <!-- <h5>fifth slide label</h5> -->
+                    <p>People who love to eat are always the best people.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./img/carousselimg/caroussel6.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                    width="400"
+                    height="600"
+                  />
+                  <div class="carousel-caption d-none d-md-block">
+                    <!-- <h5>sixth slide label</h5> -->
                     <p>
-                      Some representative placeholder content for the second
-                      slide.
+                      One cannot think well, love well, sleep well, if one has
+                      not dined well.
                     </p>
                   </div>
                 </div>
                 <div class="carousel-item">
                   <img
-                    src="./img/pizza.jpg"
+                    src="./img/carousselimg/caroussel7.jpg"
                     class="d-block w-100"
                     alt="..."
                     width="400"
                     height="600"
                   />
                   <div class="carousel-caption d-none d-md-block">
-                    <h5>fifth slide label</h5>
-                    <p>
-                      Some representative placeholder content for the second
-                      slide.
-                    </p>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <img
-                    src="./img/pizza.jpg"
-                    class="d-block w-100"
-                    alt="..."
-                    width="400"
-                    height="600"
-                  />
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5>sixth slide label</h5>
-                    <p>
-                      Some representative placeholder content for the second
-                      slide.
-                    </p>
-                  </div>
-                </div>
-                <div class="carousel-item">
-                  <img
-                    src="./img/pizza.jpg"
-                    class="d-block w-100"
-                    alt="..."
-                    width="400"
-                    height="600"
-                  />
-                  <div class="carousel-caption d-none d-md-block">
-                    <h5>Seventh slide label</h5>
-                    <p>
-                      Some representative placeholder content for the second
-                      slide.
-                    </p>
+                    <!-- <h5>Seventh slide label</h5> -->
+                    <p>Food is symbolic of love when words are inadequate.</p>
                   </div>
                 </div>
               </div>
@@ -323,17 +279,17 @@
                     <div class="row align-items-center">
                       <div class="card" style="width: 18rem">
                         <img
-                          src="https://images.unsplash.com/photo-1613526949297-1aba25022d0c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1503&q=80"
+                          src="./img/carousselimg/caroussel9.jpg"
                           class="card-img-top"
                           alt="..."
                         />
                         <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
+                          <h5 class="card-title">Bistro</h5>
                           <p class="card-text">
                             Some quick example text to build on the card title
                             and make up the bulk of the card's content.
                           </p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                          <a href="#" class="btn btn-primary">Recipe</a>
                         </div>
                       </div>
                     </div>
@@ -344,17 +300,17 @@
                     <div class="row align-items-center">
                       <div class="card" style="width: 18rem">
                         <img
-                          src="https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+                          src="./img/carousselimg/caroussel8.jpg"
                           class="card-img-top"
                           alt="..."
                         />
                         <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
+                          <h5 class="card-title">Salad</h5>
                           <p class="card-text">
                             Some quick example text to build on the card title
                             and make up the bulk of the card's content.
                           </p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                          <a href="#" class="btn btn-primary">Recipe</a>
                         </div>
                       </div>
                     </div>
@@ -365,17 +321,17 @@
                     <div class="row align-items-center">
                       <div class="card" style="width: 18rem">
                         <img
-                          src="https://images.unsplash.com/photo-1614277786539-abd7a3cd46bf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80"
+                          src="./img/carousselimg/caroussel7.jpg"
                           class="card-img-top"
                           alt="..."
                         />
                         <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
+                          <h5 class="card-title">Dinner</h5>
                           <p class="card-text">
                             Some quick example text to build on the card title
                             and make up the bulk of the card's content.
                           </p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                          <a href="#" class="btn btn-primary">Recipe</a>
                         </div>
                       </div>
                     </div>
@@ -386,105 +342,17 @@
                     <div class="row align-items-center">
                       <div class="card" style="width: 18rem">
                         <img
-                          src="https://images.unsplash.com/photo-1614277936061-7faea346e126?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                          src="./img/carousselimg/caroussel6.jpg"
                           class="card-img-top"
                           alt="..."
                         />
                         <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
+                          <h5 class="card-title">Wellness</h5>
                           <p class="card-text">
                             Some quick example text to build on the card title
                             and make up the bulk of the card's content.
                           </p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col-md-3">
-                  <div class="container text-center">
-                    <div class="row align-items-center">
-                      <div class="card" style="width: 18rem">
-                        <img
-                          src="https://images.unsplash.com/photo-1600935926387-12d9b03066f0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80"
-                          class="card-img-top"
-                          alt="..."
-                        />
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">
-                            Some quick example text to build on the card title
-                            and make up the bulk of the card's content.
-                          </p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-3">
-                  <div class="container text-center">
-                    <div class="row align-items-center">
-                      <div class="card" style="width: 18rem">
-                        <img
-                          src="https://images.unsplash.com/photo-1614602042626-1c44d897a076?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80"
-                          class="card-img-top"
-                          alt="..."
-                        />
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">
-                            Some quick example text to build on the card title
-                            and make up the bulk of the card's content.
-                          </p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-3">
-                  <div class="container text-center">
-                    <div class="row align-items-center">
-                      <div class="card" style="width: 18rem">
-                        <img
-                          src="https://images.unsplash.com/photo-1612015560711-59fa97dc6421?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
-                          class="card-img-top"
-                          alt="..."
-                        />
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">
-                            Some quick example text to build on the card title
-                            and make up the bulk of the card's content.
-                          </p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-md-3">
-                  <div class="container text-center">
-                    <div class="row align-items-center">
-                      <div class="card" style="width: 18rem">
-                        <img
-                          src="https://images.unsplash.com/photo-1625579437459-12c5f5762142?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80"
-                          class="card-img-top"
-                          alt="..."
-                        />
-                        <div class="card-body">
-                          <h5 class="card-title">Card title</h5>
-                          <p class="card-text">
-                            Some quick example text to build on the card title
-                            and make up the bulk of the card's content.
-                          </p>
-                          <a href="#" class="btn btn-primary">Go somewhere</a>
+                          <a href="#" class="btn btn-primary">Recipe</a>
                         </div>
                       </div>
                     </div>
@@ -516,9 +384,9 @@
         </div>
       </div>
     </footer>
-    <iframe src="./recipes/friedrice.html">Frame1</iframe>
-    <iframe src="./recipes/friedrice.html">Frame2</iframe>
-    <iframe src="./recipes/rosemarypotatoes.html">Frames3</iframe>
+    <div class="content">
+      <iframe id="recipe-iframe" src=""></iframe>
+    </div>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
       integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"

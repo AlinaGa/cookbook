@@ -10,67 +10,49 @@
       integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="../styles.css" />
     <title>Rosemary Potatoes</title>
   </head>
 
   <body>
-    <main>
-      <div class="container-top">
+    <main id="main-recipe" class="container-md-6">
+      <div class="container-fluid col-md-6">
+      <div class="container-top text-center">
         <div class="col">
         <div class="col-md-06">
+          <h1>Rosemary Potatoes</h1>
+          <p>Crispy roasted potatoes with fragrant rosemary</p>
         <div class="image">
-          <img
-            src="https://images.unsplash.com/photo-1631898039984-fd5f61fe8732?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+          <a href="rosemarypotatoes.html"><img id="recipe-img"
+            src="../img/1potatoes.jpg"
+            title="Rosemary Potatoes"
             alt="friedrice"
-            height="150vh"
-          />
-        </div>
-            </div>
+            width="200vh"
+            
+          /></a>
         </div>
       </div>
-        <div class="title">
-          <div class="row">
-            <div class="col-md-06">
-              <h1>Rosemary Potatoes</h1>
-            </div>
-          </div>
         </div>
       </div>
       <table class="table table-bordered">
-        <thead>
-          <tr>
-            <th scope="col"></th>
-            <th scope="col">Name</th>
-            <th scope="col">Description</th>
-           
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th scope="row"></th>
-            <td>Rosemary Potatoes</td>
-            <td>Crispy roasted potatoes with fragrant rosemary</td>
-          </tr>
-        </tbody>
         <tbody>
             <tr>
               <th scope="row"></th>
-              <td>Time:</td>
+              <td class="table-content">Time:</td>
               <td>30min</td>
             </tr>
           </tbody>
           <tbody>
             <tr>
               <th scope="row"></th>
-              <td>Servings:</td>
+              <td class="table-content">Servings:</td>
               <td>5-6</td>
             </tr>
           </tbody>
           <tbody>
             <tr>
-              <th scope="row"></th>
-              <td>Ingredients:</td>
+              <th scope="row">1</th>
+              <td class="table-content">Ingredients:</td>
               <td>
                 <ul>
                     <li>2 lbs baby potatoes, halved</li>
@@ -82,8 +64,8 @@
           </tbody>
           <tbody>
             <tr>
-              <th scope="row"></th>
-              <td>Instructions:</td>
+              <th scope="row">2</th>
+              <td class="table-content">Instructions:</td>
               <td>
                 <ul>
                     <li>Preheat the oven to 400°F (200°C). Line a baking sheet with parchment paper.</li>
@@ -96,6 +78,13 @@
             </tr>
           </tbody>
         </table>
-        <button class="btn btn-primary" onclick="">Share</button>
+        <div class="d-grid gap-2 col-6 mx-auto">
+          <button id ="click-button" class="btn btn btn-outline-secondary" onclick="">
+            Share
+          </button>
+        </div>
+      </div>
+      </div>  
+    </main>
   </body>
 </html>
