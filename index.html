@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -11,7 +12,7 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./styles.css" />
-    <script src="index.js"></script>
+    
     <title>Cookbook</title>
   </head>
   <body>
@@ -42,6 +43,7 @@
     </header>
     <!-- Sidebar -->
 
+
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-2">
@@ -52,33 +54,18 @@
           <div class="sidebar text-center">
             <select id="recipe-list">
               <option value="">What do you need now?</option>
-              <optgroup label="Breakfast">
-                <option value="">Recipe 1</option>
-                <option value="">Recipe 1</option>
-                <option value="">Recipe 1</option>
-              </optgroup>
-              <optgroup label="Brunch">
-                <option value="">Recipe 1</option>
-                <option value="">Recipe 1</option>
-                <option value="">Recipe 1</option>
-              </optgroup>
+              <optgroup label="Italian">          
+                <option value="./recipes/gnocchi.html">Gnocchi</option>
+                <option value="./recipes/carbonara.html">Carbonara</option>
+              </option>
               <optgroup label="Lunch">
-                <option value="../recipes/rosemarypotatoess.html">
+              <option value="./recipes/falafelCurry.html">Falafel Curry</option>
+                <option value="./recipes/rosemarypotatoes.html">
                   Rosemary Potatoes
                 </option>
-                <option value="../recipes/friedrice.html">Fried Rice</option>
-                <option value="../recipes/spareribs.html">Spare Ribs</option>
-              </optgroup>
-              <optgroup label="Dinner">
-                <option value="">Recipe 1</option>
-                <option value="">Recipe 1</option>
-                <option value="">Recipe 1</option>
-              </optgroup>
-              <optgroup label="Desserts">
-                <option value="">Recipe 1</option>
-                <option value="">Recipe 1</option>
-                <option value="">Recipe 1</option>
-              </optgroup>
+                <option value="./recipes/friedrice.html">Fried Rice</option>
+                <option value="./recipes/spareribs.html">Spare Ribs</option>
+              </optgroup>           
             </select>
           </div>
         </div>
@@ -257,6 +244,8 @@
               </button>
             </div>
 
+ <iframe id="recipe-iframe" src=""></iframe>
+
             <div class="container-paragraph">
               <h2>Looking for inspiration in the kitchen?</h2>
               Our collection of delicious and easy-to-follow recipes will help
@@ -384,9 +373,11 @@
         </div>
       </div>
     </footer>
-    <div class="content">
-      <iframe id="recipe-iframe" src=""></iframe>
-    </div>
+    
+     
+   
+
+<script src="index.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
       integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
@@ -399,3 +390,4 @@
     ></script>
   </body>
 </html>
+

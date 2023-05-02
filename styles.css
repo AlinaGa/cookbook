@@ -1,3 +1,31 @@
+
+iframe {
+    width: 80vw;
+    height: 80vh;
+}
+
+
+
+.recipebody {
+    width: 90%;
+}
+
+.recipetable {
+    min-width: 400px;
+    max-width: 600px;
+}
+
+th,
+td {
+    border: 0.5 px solid black;
+    text-align: left;
+}
+
+
+button:hover {
+    cursor: pointer;
+}
+
 body{
     background-color: rgb(246, 238, 238);
 }
