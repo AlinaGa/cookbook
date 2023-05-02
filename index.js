@@ -1,6 +1,7 @@
+
 const recipeList = document.querySelector('#recipe-list');
 const recipeIframe = document.querySelector('#recipe-iframe');
-ecipe = document.getElementById('#recipe')
+
 
 recipeList.addEventListener('change', function () {
     const selectedRecipe = recipeList.value;
@@ -10,4 +11,3 @@ recipeList.addEventListener('change', function () {
 function shared() {
     alert("Shared sucessfully");
 }
-
